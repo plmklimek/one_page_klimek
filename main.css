@@ -10,6 +10,7 @@ html,body{
     padding:1%;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav{
     width:50%;
@@ -21,8 +22,10 @@ html,body{
     padding:0;
     display:flex;
     justify-content: space-between;
+    margin: 20px 0 0 0;
 }
 .item_nav{
+    font-size: 20px;
     cursor: pointer;
 }
 .item_nav:hover{
@@ -31,5 +34,45 @@ html,body{
 .logo{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size:22px;
+    font-size:24px;
+}
+.item_nav_mobile{
+    display:none;
+}
+.list_nav_mobile{
+    font-size: 18px;
+    width:100%;
+    margin:20px 0 0 0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.toggleMenu{
+    display: block;
+    text-align: center;
+}
+.hamburger_icon{
+    display: none;
+}
+@media only screen and (max-width: 500px){
+
+    .list_nav{
+        display:none;
+    }
+    .hamburger_icon{
+        display:flex;
+        cursor: pointer;
+        justify-content: flex-end;
+        height: 30px;
+        align-items: center;
+    }
+    .nav{
+        width: 100%;
+    }
+    .header{
+        align-items: flex-start;
+    }
 }
