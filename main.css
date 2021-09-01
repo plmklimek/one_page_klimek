@@ -1,0 +1,35 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container{
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.header{
+    background:#009BFB;
+    padding:1%;
+    display:flex;
+    justify-content: space-between;
+}
+.nav{
+    width:50%;
+}
+.list_nav{
+    width:100%;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: space-between;
+}
+.item_nav{
+    cursor: pointer;
+}
+.item_nav:hover{
+    font-weight: bold;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:22px;
+}
