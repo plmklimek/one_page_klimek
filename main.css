@@ -57,7 +57,7 @@ html,body{
 .hamburger_icon{
     display: none;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 520px){
 
     .list_nav{
         display:none;
@@ -75,4 +75,31 @@ html,body{
     .header{
         align-items: flex-start;
     }
+}
+.slider_container{
+    margin: 10px 0 10px 0;
+}
+.header_container{
+    text-align: center;
+}
+.slider_section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.slider_image{
+    width:100%;
+}
+.left-arrow, .right-arrow{
+    font-size:30px;
+    cursor: pointer;
+}
+.slider_images_section{
+    text-align: center;
+    width: 60%;
+}
+.image_hidden{
+    display: none;
 }
