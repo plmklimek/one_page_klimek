@@ -1,6 +1,7 @@
 html,body{
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 .container{
     font-family: 'Kaisei HarunoUmi', serif;
@@ -144,4 +145,8 @@ html,body{
     font-size: 25px;
     text-align: center;
     background:#00f7ff;
+}
+.link, .link:active{
+    text-decoration: none;
+    color:black;
 }
