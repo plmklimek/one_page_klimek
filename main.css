@@ -119,6 +119,8 @@ html,body{
     list-style-type: none;
     align-items: center;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 .three_element{
     width:30%;
@@ -135,6 +137,7 @@ html,body{
 }
 .text_text{
     width:75%;
+    font-size: 20px;
     text-align: justify;
 }
 .text_image{
@@ -149,4 +152,23 @@ html,body{
 .link, .link:active{
     text-decoration: none;
     color:black;
+}
+
+@media only screen and (max-width: 1000px){
+    .slider_section{
+        width: 80%;
+    }
+    .slider_images_section{
+        width: 80%;
+    }
+    .three_image{
+        height: 200px;
+    }
+    .text_image{
+        width:40%;
+        height:400px
+    }
+    .text_text{
+        font-size: 10px;
+    }
 }
